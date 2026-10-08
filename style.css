@@ -1,0 +1,1302 @@
+/* Remove default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Whole Website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #176b52;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+}
+
+
+.nav-links a:hover {
+    color: #176b52;
+}
+
+
+/* ---------------- HERO ---------------- */
+
+.hero {
+    min-height: 520px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background-color: #edf8f4;
+}
+
+
+.hero-content {
+    max-width: 850px;
+}
+
+
+.small-heading {
+    color: #176b52;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    margin-bottom: 18px;
+}
+
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+
+.hero h1 span {
+    color: #176b52;
+}
+
+
+.hero-description {
+    max-width: 650px;
+    margin: 0 auto 35px;
+
+    font-size: 18px;
+    color: #64748b;
+}
+
+
+.explore-button {
+    display: inline-block;
+
+    background-color: #176b52;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 28px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+}
+
+
+.explore-button:hover {
+    background-color: #10533f;
+}
+
+
+/* ---------------- AUDIENCE ---------------- */
+
+.audience-section {
+    padding: 90px 8%;
+    text-align: center;
+}
+
+
+.section-label {
+    color: #176b52;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+
+.audience-section h2,
+.why-section h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+
+.section-description {
+    color: #64748b;
+    margin-bottom: 45px;
+}
+
+
+.audience-container {
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: flex;
+    gap: 30px;
+}
+
+
+.audience-card {
+    background-color: white;
+
+    flex: 1;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    border: 1px solid #e5e7eb;
+
+    text-align: left;
+}
+
+
+.audience-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+
+.card-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.audience-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.audience-card p {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+
+.audience-card button {
+    background-color: #176b52;
+    color: white;
+
+    border: none;
+
+    padding: 13px 18px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.audience-card button:hover {
+    background-color: #10533f;
+}
+
+
+/* ---------------- WHY SECTION ---------------- */
+
+.why-section {
+    background-color: white;
+
+    text-align: center;
+
+    padding: 90px 20px;
+}
+
+
+.why-section p:last-child {
+    max-width: 700px;
+
+    margin: 20px auto 0;
+
+    color: #64748b;
+
+    font-size: 17px;
+}
+
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    background-color: #12231d;
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 20px;
+}
+
+
+footer h3 {
+    margin-bottom: 8px;
+}
+
+
+footer p {
+    color: #cbd5e1;
+}
+
+
+.footer-note {
+    margin-top: 20px;
+
+    font-size: 13px;
+}
+
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 700px) {
+
+    .nav-links {
+        display: none;
+    }
+
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+
+    .audience-container {
+        flex-direction: column;
+    }
+
+
+    .audience-section h2,
+    .why-section h2 {
+        font-size: 29px;
+    }
+
+}
+/* ========================================
+   STUDENT OPPORTUNITIES PAGE
+======================================== */
+
+
+.logo {
+    text-decoration: none;
+}
+
+
+/* Student Page Hero */
+
+.student-hero {
+    background-color: #edf8f4;
+
+    text-align: center;
+
+    padding: 80px 20px;
+}
+
+
+.student-hero h1 {
+    font-size: 45px;
+
+    margin-bottom: 15px;
+}
+
+
+.student-hero > p:last-child {
+    color: #64748b;
+
+    font-size: 17px;
+
+    max-width: 650px;
+
+    margin: auto;
+}
+
+
+/* Main Opportunity Section */
+
+.student-opportunities {
+    padding: 80px 8%;
+}
+
+
+.student-section-heading {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+
+.student-section-heading h2 {
+    font-size: 34px;
+
+    margin-bottom: 8px;
+}
+
+
+.student-section-heading p {
+    color: #64748b;
+}
+
+
+/* Filter Buttons */
+
+.filter-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-bottom: 45px;
+}
+
+
+.filter-btn {
+    background-color: white;
+
+    border: 1px solid #d1d5db;
+
+    padding: 11px 17px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+
+.filter-btn:hover {
+    border-color: #176b52;
+
+    color: #176b52;
+}
+
+
+.filter-btn.active {
+    background-color: #176b52;
+
+    color: white;
+
+    border-color: #176b52;
+}
+
+
+/* Opportunity Grid */
+
+.opportunity-grid {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+/* Individual Opportunity */
+
+.opportunity-card {
+    background-color: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 16px;
+
+    padding: 25px;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+.opportunity-card:hover {
+    transform: translateY(-5px);
+
+    transition: 0.3s;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.07);
+}
+
+
+.card-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+
+.opportunity-type {
+    background-color: #edf8f4;
+
+    color: #176b52;
+
+    padding: 6px 10px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+
+.verified {
+    color: #176b52;
+
+    font-size: 11px;
+
+    font-weight: bold;
+}
+
+
+.opportunity-card h3 {
+    font-size: 21px;
+
+    margin-bottom: 5px;
+}
+
+
+.organisation {
+    color: #64748b;
+
+    font-size: 14px;
+
+    margin-bottom: 18px;
+}
+
+
+.opportunity-description {
+    color: #4b5563;
+
+    margin-bottom: 20px;
+
+    flex-grow: 1;
+}
+
+
+.opportunity-info {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+
+    font-size: 13px;
+
+    margin-bottom: 20px;
+}
+
+
+.view-button {
+    background-color: #176b52;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+
+.view-button:hover {
+    background-color: #10533f;
+}
+
+
+/* Safety Section */
+
+.safety-box {
+    padding: 20px 8% 80px;
+}
+
+
+.safety-box div {
+    max-width: 900px;
+
+    margin: auto;
+
+    background-color: #fff8e7;
+
+    border: 1px solid #f5d98b;
+
+    border-radius: 15px;
+
+    padding: 30px;
+}
+
+
+.safety-box h2 {
+    margin-bottom: 12px;
+}
+
+
+.safety-box p {
+    color: #5f6368;
+
+    margin-top: 8px;
+}
+
+
+/* Tablet */
+
+@media (max-width: 950px) {
+
+    .opportunity-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    .student-hero h1 {
+        font-size: 34px;
+    }
+
+
+    .student-opportunities {
+        padding: 60px 5%;
+    }
+
+
+    .opportunity-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .filter-buttons {
+        justify-content: flex-start;
+    }
+
+}
+.card-button {
+    display: inline-block;
+
+    background-color: #176b52;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 13px 18px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+.card-button:hover {
+    background-color: #10533f;
+}
+/* ========================================
+   SEARCH BAR
+======================================== */
+
+.search-container {
+    max-width: 650px;
+    margin: 0 auto 30px;
+}
+
+
+.search-container input {
+    width: 100%;
+
+    padding: 16px 20px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    background-color: white;
+}
+
+
+.search-container input:focus {
+    border-color: #176b52;
+
+    box-shadow: 0 0 0 3px rgba(23, 107, 82, 0.08);
+}
+.no-results {
+    display: none;
+
+    text-align: center;
+
+    margin-top: 40px;
+
+    color: #64748b;
+
+    font-size: 17px;
+}
+/* ========================================
+   OPPORTUNITY DETAILS PAGE
+======================================== */
+
+.details-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px 80px;
+}
+
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 25px;
+
+    color: #176b52;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+.details-card {
+    background-color: white;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+
+    padding: 45px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+}
+
+
+.details-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+.example-badge {
+    background-color: #fff8e7;
+    color: #8a6415;
+
+    padding: 6px 11px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.details-card h1 {
+    font-size: 38px;
+
+    margin-bottom: 5px;
+}
+
+
+.details-organisation {
+    color: #64748b;
+
+    margin-bottom: 35px;
+}
+
+
+.details-info {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 15px;
+
+    margin-bottom: 40px;
+}
+
+
+.details-info div {
+    background-color: #f7f9fc;
+
+    border-radius: 12px;
+
+    padding: 18px;
+}
+
+
+.details-info strong {
+    font-size: 13px;
+}
+
+
+.details-info p {
+    margin-top: 5px;
+
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+.details-section {
+    border-top: 1px solid #e5e7eb;
+
+    padding-top: 30px;
+
+    margin-top: 30px;
+}
+
+
+.details-section h2 {
+    font-size: 22px;
+
+    margin-bottom: 12px;
+}
+
+
+.details-section p,
+.details-section li {
+    color: #4b5563;
+}
+
+
+.details-section ul {
+    padding-left: 22px;
+}
+
+
+.details-section li {
+    margin-bottom: 8px;
+}
+
+
+.apply-section {
+    background-color: #edf8f4;
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    margin-top: 35px;
+}
+
+
+.apply-section h2 {
+    margin-bottom: 8px;
+}
+
+
+.apply-section p {
+    color: #4b5563;
+
+    margin-bottom: 20px;
+}
+
+
+.official-button {
+    background-color: #176b52;
+    color: white;
+
+    border: none;
+
+    border-radius: 9px;
+
+    padding: 14px 20px;
+
+    font-weight: bold;
+}
+
+
+.official-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+.source-box {
+    background-color: #f7f9fc;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    padding: 25px;
+
+    margin-top: 30px;
+}
+
+
+.source-box h3 {
+    margin-bottom: 12px;
+}
+
+
+.source-box p {
+    margin-top: 6px;
+
+    color: #4b5563;
+}
+
+
+.details-safety {
+    background-color: #fff8e7;
+
+    border: 1px solid #f5d98b;
+
+    border-radius: 14px;
+
+    padding: 25px;
+
+    margin-top: 25px;
+}
+
+
+.details-safety h3 {
+    margin-bottom: 8px;
+}
+
+
+.details-safety p {
+    color: #5f6368;
+}
+
+
+/* DETAILS PAGE - MOBILE */
+
+@media (max-width: 750px) {
+
+    .details-card {
+        padding: 25px;
+    }
+
+
+    .details-card h1 {
+        font-size: 30px;
+    }
+
+
+    .details-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .details-info {
+        grid-template-columns: 1fr;
+    }
+
+}/* ========================================
+   OPPORTUNITY DETAILS PAGE
+======================================== */
+
+.details-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px 80px;
+}
+
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 25px;
+
+    color: #176b52;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+.details-card {
+    background-color: white;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+
+    padding: 45px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+}
+
+
+.details-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+.example-badge {
+    background-color: #fff8e7;
+    color: #8a6415;
+
+    padding: 6px 11px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.details-card h1 {
+    font-size: 38px;
+
+    margin-bottom: 5px;
+}
+
+
+.details-organisation {
+    color: #64748b;
+
+    margin-bottom: 35px;
+}
+
+
+.details-info {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 15px;
+
+    margin-bottom: 40px;
+}
+
+
+.details-info div {
+    background-color: #f7f9fc;
+
+    border-radius: 12px;
+
+    padding: 18px;
+}
+
+
+.details-info strong {
+    font-size: 13px;
+}
+
+
+.details-info p {
+    margin-top: 5px;
+
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+.details-section {
+    border-top: 1px solid #e5e7eb;
+
+    padding-top: 30px;
+
+    margin-top: 30px;
+}
+
+
+.details-section h2 {
+    font-size: 22px;
+
+    margin-bottom: 12px;
+}
+
+
+.details-section p,
+.details-section li {
+    color: #4b5563;
+}
+
+
+.details-section ul {
+    padding-left: 22px;
+}
+
+
+.details-section li {
+    margin-bottom: 8px;
+}
+
+
+.apply-section {
+    background-color: #edf8f4;
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    margin-top: 35px;
+}
+
+
+.apply-section h2 {
+    margin-bottom: 8px;
+}
+
+
+.apply-section p {
+    color: #4b5563;
+
+    margin-bottom: 20px;
+}
+
+
+.official-button {
+    background-color: #176b52;
+    color: white;
+
+    border: none;
+
+    border-radius: 9px;
+
+    padding: 14px 20px;
+
+    font-weight: bold;
+}
+
+
+.official-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+.source-box {
+    background-color: #f7f9fc;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    padding: 25px;
+
+    margin-top: 30px;
+}
+
+
+.source-box h3 {
+    margin-bottom: 12px;
+}
+
+
+.source-box p {
+    margin-top: 6px;
+
+    color: #4b5563;
+}
+
+
+.details-safety {
+    background-color: #fff8e7;
+
+    border: 1px solid #f5d98b;
+
+    border-radius: 14px;
+
+    padding: 25px;
+
+    margin-top: 25px;
+}
+
+
+.details-safety h3 {
+    margin-bottom: 8px;
+}
+
+
+.details-safety p {
+    color: #5f6368;
+}
+
+
+/* DETAILS PAGE - MOBILE */
+
+@media (max-width: 750px) {
+
+    .details-card {
+        padding: 25px;
+    }
+
+
+    .details-card h1 {
+        font-size: 30px;
+    }
+
+
+    .details-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .details-info {
+        grid-template-columns: 1fr;
+    }
+
+}
+.view-button-link {
+    display: block;
+
+    background-color: #176b52;
+    color: white;
+
+    text-decoration: none;
+    text-align: center;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+.view-button-link:hover {
+    background-color: #10533f;
+}
+
+/* =====================================
+   DEADLINE STATUS BADGES
+===================================== */
+
+.deadline-status {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.deadline-status.open {
+    background-color: #e5f7ed;
+    color: #176b52;
+}
+
+.deadline-status.closing-soon {
+    background-color: #fff3d6;
+    color: #996300;
+}
+
+.deadline-status.closed {
+    background-color: #fde8e8;
+    color: #b42318;
+}
+
+/* STEP 15B - MOBILE NAVIGATION */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 18px 12px;
+    }
+
+    .logo {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        background-color: #edf8f4;
+        color: #176b52;
+        text-align: center;
+    }
+
+}
+
